@@ -1,4 +1,4 @@
-# 🌸 Papan Bunga Indah — GitHub Pages
+# 🌸 Amany Creative — GitHub Pages
 
 Aplikasi manajemen pesanan papan bunga berbasis web, dihosting di GitHub Pages dengan Google Sheets API v4 sebagai backend data.
 
@@ -15,10 +15,10 @@ cd papan-bunga-indah
 ### 2. Buat Google Spreadsheet
 
 1. Buka [Google Sheets](https://sheets.google.com) → buat spreadsheet baru
-2. Beri nama: **Papan Bunga Indah - Data**
+2. Beri nama: **Amany Creative - Data**
 3. Copy **Spreadsheet ID** dari URL:
    ```
-   https://docs.google.com/spreadsheets/d/SPREADSHEET_ID_ADA_DI_SINI/edit
+   https://docs.google.com/spreadsheets/d/1LA6IIO-39G3EydZrfWlivjAzx4eFQrP6LjpzbPC5f9A/edit
    ```
 
 ### 3. Aktifkan Google Sheets API
@@ -45,7 +45,7 @@ Buka file `config.js` dan isi:
 
 ```javascript
 const CONFIG = {
-  SPREADSHEET_ID: 'GANTI_DENGAN_SPREADSHEET_ID_KAMU',
+  SPREADSHEET_ID: '1LA6IIO-39G3EydZrfWlivjAzx4eFQrP6LjpzbPC5f9A',
   API_KEY:        'GANTI_DENGAN_API_KEY_KAMU',
   CLIENT_ID:      'GANTI_DENGAN_CLIENT_ID_KAMU.apps.googleusercontent.com',
 };
