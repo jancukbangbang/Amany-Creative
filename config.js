@@ -1,12 +1,12 @@
 // ═══════════════════════════════════════════════════════
-//  PAPAN BUNGA INDAH — Konfigurasi
+//  AMANY CREATIVE — Konfigurasi
 //  Edit file ini dengan kredensial Google API kamu
 // ═══════════════════════════════════════════════════════
 
 const CONFIG = {
   // Spreadsheet ID dari URL Google Sheets kamu
-  // https://docs.google.com/spreadsheets/d/SPREADSHEET_ID_DI_SINI/edit
-  SPREADSHEET_ID: 'GANTI_DENGAN_SPREADSHEET_ID_KAMU',
+  // https://docs.google.com/spreadsheets/d/1LA6IIO-39G3EydZrfWlivjAzx4eFQrP6LjpzbPC5f9A/edit
+  SPREADSHEET_ID: '1LA6IIO-39G3EydZrfWlivjAzx4eFQrP6LjpzbPC5f9A',
 
   // API Key dari Google Cloud Console (untuk read data)
   API_KEY: 'GANTI_DENGAN_API_KEY_KAMU',
@@ -23,7 +23,7 @@ const CONFIG = {
 
   // Default pengaturan toko (digunakan jika sheet Settings kosong)
   DEFAULT_SETTINGS: {
-    namaToko:       'Papan Bunga Indah',
+    namaToko:       'Amany Creative',
     noHp:           '08123456789',
     alamatToko:     'Jl. Melati Raya No. 10, Laweyan, Surakarta',
     kodeQris:       '',
